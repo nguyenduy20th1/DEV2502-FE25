@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <h3>Thêm mới sản phẩm</h3>
+        <label for="masp">Mã sản phẩm</label>
+        <input type="text" id="masp" name="masp" required>
+        <br><br>
+        <label for="tensp">Tên sản phẩm</label>
+        <input type="text" id="tensp" name="tensp" required>
+        <br><br>
+        <label for="url">URL</label>
+        <input type="url" id="url" name="url" required>
+        <br><br>
+        <label for="loáip">Loại sản phẩm</label>
+        <select id="loaisp" name="loaisp" required>
+            <option value="">-- Chọn loại sản phẩm --</option>
+            <option value="1">Điện thoại</option>
+            <option value="2">Máy tính bảng</option>
+            <option value="3">Laptop</option>
+            <option value="4">Máy tính xách tay</option>
+            <option value="6">Thiết bị điện tử</option>
+            <option value="7">Thiết bị thông minh</option>
+            <option value="8">Thiết bị gia dụng</option>
+            <option value="9">Thiết bị kĩ thuật</option>
+        </select>
+        <br><br>
+        <label for="giacu">Giá cũ</label>
+        <input type="number" id="giacu" name="giacu" required>
+        <label for="giamoi">Giá mới</label>
+        <input type="number" id="giamoi" name="giamoi" required>
+        <label for="size">Size</label>
+        <input type="text" id="size" name="size">
+        <br><br>
+        <label for="moTa">Mô tả</label>
+        <br>
+        <textarea id="mota" name="mota" cols="40" rows="6" required></textarea>
+    </form>
+</body>
+</html>

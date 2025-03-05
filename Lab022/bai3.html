@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <h1>Đăng kí du lịch</h1>
+        <table width="540" border="1" cellspacing="0" cellpadding="6">
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type="text" name="fullName" id="fullName" required></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text" name="address" id="address" required></td>
+            </tr>
+            <tr>
+                <td>Số điện thoại</td>
+                <td><input type="tel" name="phone" id="phone" required></td>
+            </tr>
+            <tr>
+                <td>Khách Việt Nam</td>
+                <td><input type="checkbox" name="isVietnamese" value="1" checked></td>
+            </tr>
+            <tr>
+                <td>Chọn Tour</td>
+                <td>
+                    <select name="city" id="city">
+                        <option value="">-- Chọn Tour --</option>
+                        <optgroup label="Miền Bắc">
+                            <option value="1">Tour 1</option>
+                            <option value="2">Tour 2</option>
+                            <option value="3">Tour 3</option>
+                        </optgroup>
+                        <optgroup label="Miền Trung">
+                            <option value="4">Tour 4</option>
+                            <option value="5">Tour 5</option>
+                            <option value="6">Tour 6</option>
+                        </optgroup>
+                        <optgroup label="Miền Nam">
+                            <option value="7">Tour 7</option>
+                            <option value="8">Tour 8</option>
+                            <option value="9">Tour 9</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Phương tiện</td>
+                <td>
+                    <input type="radio" name="transportation" value="car" checked> Xe máy
+                    <input type="radio" name="transportation" value="bus"> Xe ô tô
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset>
+                        <legend>Số lượng đoàn khách</legend>
+                        Người lớn
+                        <input type="number" name="adults" id="adults" min="1" required>
+                        Trẻ em
+                        <input type="number" name="children" id="children" min="0">
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>Ghi chú thêm</td>
+                <td><textarea name="note" id="note" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Đồng ý">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

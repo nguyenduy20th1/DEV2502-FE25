@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form action method="post">
+            <h3>Thông tin chất liệu</h3>
+            <label for="name">Tên (Title)</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="tukhoaSEO">Từ khóa SEO</label><br>
+            <input type="text" id="tukhoaSEO" name="tukhoaSEO" required><br><br>
+            <label for="moTa">Mô tả SEO</label><br>
+            <input type="text" id="moTa" name="moTa"><br><br>
+            <label for="ghiChu">Ghi chú</label><br>
+            <textarea id="ghiChu" name="ghiChu"></textarea><br><br>
+            <label for="status">Trạng thái </label>
+            <input type="radio" id="status" name="hoatDong" checked>
+            <label for="hoatDong">Hoạt động</label>
+            <input type="radio" id="status" name="dangKhoa">
+            <label for="dangKhoa">Đang khóa</label><br><br>
+            <button type="submit">Ghi lại</button>
+            <button type="reset">Nhập lại</button>
+        </form>
+    </body>
+</html>
