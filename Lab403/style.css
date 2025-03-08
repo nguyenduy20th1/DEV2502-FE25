@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
+
+.fixwidth {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    overflow: hidden;
+    clear: both;
+}
+
+header {
+    background-color: #2d303a;
+}
+
+.topnav {
+    display: flex;
+    width: 940px;
+    height: 42px;
+    margin: 0 auto;
+    padding: 34px 0;
+    justify-content: space-between;
+}
+
+.topnav .logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 32px;
+}
+
+.topnav .logo:hover {
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+.topnav .logo a {
+    position: absolute;
+    width: 140px;
+    text-decoration: none;
+    color: #ffffff;
+    left: 0;
+}
+
+.topnav .logo span {
+    color: #ff0000;
+}
+
+.topnav .menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-right: 32px;
+}
+
+.topnav .menu ul {
+    position: absolute;
+    display: flex;
+    list-style: none;
+    right: 0;
+}
+
+.topnav .menu ul li {
+    padding: 20px;
+    margin: 0 6px;
+    border-radius: 4px;
+}
+
+.topnav .menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.topnav .menu ul li:hover{
+    opacity: 0.5;
+    transition: 0.4s;
+    background-color: #ff0000;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner .fixwidth img {
+    max-width: 100%;
+    height: auto;
+}
+
+#ourServices {
+    background-color: #f2f2f2;
+    padding: 18px 0;
+}
+
+#ourServices h1,h3 {
+    color: rgb(117, 117, 122);
+    font-size: 36px;
+}
+
+#ourServices h3 {
+    font-size: 20px;
+    margin: 12px 4px;
+
+}
+
+#ourServices p {
+    color: rgb(117, 117, 122);
+    font-size: 16px;
+    margin: 12px 4px;
+}
+
+#ourServices .service .service-1,
+#ourServices .service .service-2 {
+    display: flex;
+}
+
+#ourServices .service .service-1 .itemServices,
+#ourServices .service .service-2 .itemServices {
+    display: flex;
+}
+
+#ourServices .service .service-1 .itemServices h3,
+#ourServices .service .service-2 .itemServices h3 {
+    flex: 3.5;
+}
+
+#ourServices .service .service-1 .itemServices p,
+#ourServices .service .service-2 .itemServices p {
+    flex: 6.5;
+}
+
+#portfolio {
+    background-color: #2d2f3b;
+    padding: 16px 0;
+    color: #424b62;
+}
+
+#portfolio h2 {
+    font-size: 36px;
+}
+
+#portfolio p {
+    font-size: 16px;
+    padding-top: 16px;
+}
+
+
+#portfolio .portfolio {
+    padding-top: 16px;
+}
+
+#portfolio .portfolio ul {
+    display: flex;
+    width: 340px;
+    padding-top: 16px;
+    list-style: none;
+    justify-content: space-between;
+}
+
+#portfolio .portfolio ul li {
+    padding: 2px 4px;
+    border: 1px solid #424b62;
+    border-radius: 4px;
+}
+
+#portfolio .portfolio ul li a {
+    color: #424b62;
+    text-decoration: none;
+}
+
+#portfolio .portfolio ul li:hover{
+    border-color: #d7dae0;
+    opacity: 0.8;
+}
+
+#portfolio .portfolio ul li:hover a {
+    color: #d7dae0;
+}
+
+.listItemx {
+    width: 100%;
+    padding: 8px 0 16px 0; 
+    height: auto;
+    background-color: #424b62;
+}
+
+.listItemx .itemx1,
+.listItemx .itemx2 {
+    display: flex;
+    justify-content: center;
+    padding: 16px 0 0 0;
+}
+
+.listItemx .itemx1 .itemx img,
+.listItemx .itemx2 .itemx img {
+    height: 180px;
+    width: 180px;
+    margin: 0 14px;
+}
+
+#aboutUs {
+    padding: 16px 0;
+    margin: 0;
+}
+
+#aboutUs h4 {
+    color: #73727c;
+}
+
+#aboutUs p {
+    font-size: 16px;
+    padding-top: 16px;
+    color: #73727c;
+}
+
+#aboutUs .itemAvt {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+
+#aboutUs .itemAvt .itemAvt-1>img,
+#aboutUs .itemAvt .itemAvt-2>img,
+#aboutUs .itemAvt .itemAvt-3>img {
+    height: 280px;
+    width: 280px;
+}
+
+#aboutUs .itemAvt .itemAvt-1 ul,
+#aboutUs .itemAvt .itemAvt-2 ul,
+#aboutUs .itemAvt .itemAvt-3 ul {
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#aboutUs .itemAvt .itemAvt-1 ul li,
+#aboutUs .itemAvt .itemAvt-2 ul li,
+#aboutUs .itemAvt .itemAvt-3 ul li {
+    padding: 0;
+    margin: 0;
+    left: 0;
+    list-style: none;
+}
+
+#aboutUs .itemAvt .itemAvt-1 ul li a img,
+#aboutUs .itemAvt .itemAvt-2 ul li a img,
+#aboutUs .itemAvt .itemAvt-3 ul li a img {
+    height: 28px;
+    width: auto;
+}
+
+#getaQuote {
+    background-color: #2d303a;
+    padding: 16px 0;
+}
+
+#getaQuote .fixwidth {
+    display: block;
+}
+
+#getaQuote p {
+    font-size: 16px;
+    padding-top: 16px;
+    color: #73727c;
+}
+
+#getaQuote .fixwidth .infoForm {
+    display: flex;
+    padding-top: 16px;
+}
+
+#getaQuote .fixwidth .infoForm .itemform {
+
+}
+
+#getaQuote .fixwidth .infoForm .itemform ul li {
+    list-style: none;
+    padding: 4px 0;
+    width: 450px;
+    height: 36px;
+}
+
+#getaQuote .fixwidth .infoForm .itemform ul li > input {
+    width: 100%;
+    height: 100%;
+    padding-left: 12px;
+    border: 3px solid #636268;
+    border-radius: 6px;
+    background-color: #2d303a;
+}
+
+#getaQuote .fixwidth .infoForm .itemform ul li > textarea {
+    width: 100%;
+    height: 56px;
+    padding-left: 12px;
+    border: 3px solid #636268;
+    color: #636268;
+    border-radius: 6px;
+    background-color: #2d303a;
+}
+
+#getaQuote .fixwidth .infoForm .contactform {
+    padding-left: 32px;
+}
+
+#getaQuote .fixwidth .infoForm .contactform h4 {
+    color: #636268;
+    font-size: 20px;
+}
+
+#getaQuote .fixwidth .infoForm .contactform p {
+    color: #636268;
+    font-size: 14px;
+}
+
+#getaQuote .fixwidth .infoForm .contactform ul {
+    padding-top: 8px;
+}
+
+#getaQuote .fixwidth .infoForm .contactform ul li {
+    list-style: none;
+    padding: 1px 0;
+    font-size: 14px;
+}
+
+#getaQuote .fixwidth .infoForm .contactform ul li span {
+    color: #636268;
+}
+
+#getaQuote .fixwidth .infoForm .contactform ul li a {
+    color: #636268;
+    text-decoration: none;
+}
+
+#getaQuote .fixwidth .infoForm .contactform ul li:hover {
+    opacity: 0.6;
+}
